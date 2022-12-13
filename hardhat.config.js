@@ -29,7 +29,7 @@ module.exports = {
         },
     },
     solidity: {
-        compilers: [{ version: "0.8.8" }, { version: "0.6.0" }],
+        compilers: [{ version: "0.8.8" }, { version: "0.6.6" }],
     },
     etherscan: {
         apiKey: ETHERSCAN_API_KEY,

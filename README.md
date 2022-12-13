@@ -5,9 +5,21 @@ This project demonstrates a basic Hardhat use case. It comes with a sample contr
 Try running some of the following tasks:
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+yarn hardhat help
+
+For unit tests:
+yarn hardhat test --network localhost
+
+For staging tests:
+yarn hardhat test --network goerli
+
+For local deploy:
+yarn hardhat deploy
+
+For deploying on a defined network:
+yarn hardhat deploy --network goerli
+
+
+yarn hardhat node
+yarn hardhat run scripts/deploy.js
 ```
